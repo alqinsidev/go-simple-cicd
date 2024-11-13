@@ -15,6 +15,4 @@ WORKDIR /app
 
 COPY --from=builder /builder/main /app/main
 
-EXPOSE 3000
-
 ENTRYPOINT [ "/app/main" ]
