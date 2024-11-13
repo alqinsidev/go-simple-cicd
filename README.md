@@ -11,5 +11,6 @@ The application is a simple Go program that includes a function to output a basi
 The CI/CD process is triggered by any **Pull Request** made to the `main` branch. The workflow includes the following steps:
    - Run tests to validate the code
    - Log in to Docker Hub
+   - Create a Tag from GitHub short SHA from last commit (Pull Request)
    - Build a Docker image for the application
    - Push the Docker image to Docker Hub
