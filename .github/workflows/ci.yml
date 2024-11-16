@@ -1,3 +1,5 @@
+name: CI - Validate Code
+
 on:
     pull_request:
       branches:
